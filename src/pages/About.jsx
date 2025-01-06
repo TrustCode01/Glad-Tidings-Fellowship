@@ -2,10 +2,11 @@ import React from 'react';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import AboutBanner from '../assets/aboutbanner.jpg';
-import CTA from '../components/CallToAction'
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import CallToAction from '../components/CallToAction';
+import CallToActionCard from '../components/CallToActionCard'
+import Banner from '../assets/services.jpg'
 
 const values = [
   {
@@ -98,9 +99,20 @@ export default function About() {
             ))}
           </motion.div>
         </div>
+        <CallToActionCard
+        title="Join Us this Sunday and experience the moment of worship, word and power"
+        description="Our main service is a moment of devine connection. It is characterised by prayer, "
+        url="/join"
+        image={Banner}
+        />
+        
       </div>
       <Footer />
       <CallToAction/>
+        
+      
+     
+      
     </div>
   );
 }

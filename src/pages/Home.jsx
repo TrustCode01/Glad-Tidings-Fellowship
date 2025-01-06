@@ -19,6 +19,7 @@ import Business from '../assets/business.jpg'
 import Service from '../assets/service.jpg'
 import Counselling from '../assets/counselling.jpg'
 import CallToAction from '../components/CallToAction';
+import CallToActionCard from '../components/CallToActionCard';
 
 const services = [
   {
@@ -108,7 +109,12 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <CallToAction/>
+        <CallToActionCard
+  title="Join Our Community"
+  description="Become a part of our vibrant community and grow in faith."
+  url="/join"
+  image={Banner}
+/>
       </section>
       
       <FAQList />
