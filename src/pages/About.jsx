@@ -6,6 +6,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import CallToAction from '../components/CallToAction';
 import CallToActionCard from '../components/CallToActionCard'
+import FeaturesShow from '../components/FeaturesShow';
 import Banner from '../assets/services.jpg'
 
 const values = [
@@ -105,10 +106,12 @@ export default function About() {
         url="/join"
         image={Banner}
         />
+       
         
       </div>
       <Footer />
       <CallToAction/>
+      <FeaturesShow />
         
       
      

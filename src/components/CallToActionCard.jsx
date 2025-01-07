@@ -30,12 +30,12 @@ initial="hidden"
 animate={controls}
 variants={fadeIn}>
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-    <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+    <div className="mx-auto  text-center ltr:sm:text-left rtl:sm:text-right">
       <h2 className="text-2xl font-bold text-gray-900 md:text-3xl lg:text-4xl">
         {title}
       </h2>
 
-      <p className="hidden  md:mt-4 md:block text-left">
+      <p className="md:mt-4 md:block text-left ">
         {description}
       </p>
 
@@ -52,7 +52,7 @@ variants={fadeIn}>
   <img
     alt=""
     src={image}
-    className="h- w-full object-cover sm:h-full"
+    className="h- max-w-[100%] object-cover  sm:h-full"
   />
 </motion.section>
   )
