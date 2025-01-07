@@ -1,6 +1,5 @@
 import { Heart, Users, Book, Baby, Users2, UserPlus, Gem, Building2, HandHeart, Brain, Briefcase, Home as HomeIcon } from 'lucide-react';
 import HeroSlider from '../components/HeroSlider';
-import Showcase from '../components/Showcase'
 import ServiceCard from '../components/ServiceCard'
 import Footer from '../components/Footer'
 import Features from '../components/Features'
@@ -18,7 +17,6 @@ import Community from '../assets/community.jpg'
 import Business from '../assets/business.jpg'
 import Service from '../assets/service.jpg'
 import Counselling from '../assets/counselling.jpg'
-import CallToAction from '../components/CallToAction';
 import CallToActionCard from '../components/CallToActionCard';
 
 const services = [
@@ -110,11 +108,12 @@ export default function Home() {
           </div>
         </div>
         <CallToActionCard
-  title="Join Our Community"
-  description="Become a part of our vibrant community and grow in faith."
-  url="/join"
-  image={Banner}
-/>
+          title= "Need spritual recharge? Join us " 
+          description="
+              Join us for our main service, where our entire congregation gathers to worship, pray, and delve into God's Word. It's a heartwarming time to rejuvenate your spirit and bond with fellow believers. You'll find a welcoming community ready to support and uplift you. Come and experience the joy and peace that comes from being in God's presence. (Hebrews 10:25)."
+          url="/contact"
+          image={Banner}
+        />
       </section>
       
       <FAQList />

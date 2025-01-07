@@ -1,5 +1,6 @@
 import PageHeader from '../components/PageHeader';
 import ServiceCard from '../components/ServiceCard';
+import CallToActionCard from '../components/CallToActionCard';
 import Footer from '../components/Footer'
 import Testimonial from '../components/Testimonial';
 import Banner from '../assets/services.jpg'
@@ -15,7 +16,7 @@ import Community from '../assets/community.jpg'
 import Business from '../assets/business.jpg'
 import Service from '../assets/service.jpg'
 import Counselling from '../assets/counselling.jpg'
-
+import Youth from '../assets/banner2.jpg'
 const services = [
     {   id: 'main',
         title: "Main Service",
@@ -75,7 +76,7 @@ const services = [
   {
     id: 'counselling',
     title: "Counselling",
-    description: "Our Life Coaching ministry offers personalized guidance to help individuals achieve their God-given potential. Through one-on-one sessions, participants receive support in areas such as career, relationships, and spiritual growth.Plans fail for lack of counsel, but with many advisers they succeed(Proverbs 15:22).",
+    description: "Our counselling ministry reflects Christ’s love and compassion, providing a safe space for guidance and healing. We address both spiritual and practical needs through professional, faith-based counselling. Our dedicated team uses their God-given gifts to support emotional well-being and spiritual growth, offering hope and restoration to all. (1 Peter 4:10).",
     image: Counselling
   },
   {
@@ -121,7 +122,12 @@ export default function Services() {
           ))}
         </div>
       </div>
-
+      <CallToActionCard
+       title="Grooming God fearing youths"
+       description="Dedicated to nurturing the spiritual growth of young individuals.Providing a safe and welcoming space for youth to explore their faith, build meaningful relationships, and develop a strong moral foundation. "
+       url="/services"
+       image={Youth}
+        />
       <Testimonial />
       
       <Footer />

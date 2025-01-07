@@ -35,7 +35,7 @@ variants={fadeIn}>
         {title}
       </h2>
 
-      <p className="hidden text-gray-500 md:mt-4 md:block text-left">
+      <p className="hidden  md:mt-4 md:block text-left">
         {description}
       </p>
 
