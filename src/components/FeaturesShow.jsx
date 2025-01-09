@@ -2,25 +2,25 @@ import React from 'react'
 
 function FeaturesShow() {
   return (
-    <><div classname=" container mx-auto  flex flex-col md:flex-row py-24 bg-gray-800">
-    <div className="flex flex-col md:flex-row md:w-4/5 xl:w-3/5 mx-auto">
+    <div classname=" container mx-auto w-full  flex flex-col md:flex-row py-24 bg-gray-800">
+    <div className="flex flex-col mt-8 md:flex-row md:w-4/5 xl:w-3/5 mx-auto">
       <div className="w-full px-4 md:!px-0  flex-col md:w-8/12">
         <div className="flex flex-col md:flex-row w-full items-center">
           
-          <div className="flex-auto w-full md:w-1/3  md:left-0 bg-white p-2 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-          <p className="text-xl">Our Main Service</p>
+          <div className="flex-auto w-full md:w-1/3  m-2 md:left-0 bg-white p-2 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+          <p className="font-bold text-lg">Our Main Service</p>
           <p className="">Every Sunday</p>
           <p className="">Time: 08:00-11:00</p>
           </div>
           
-          <div className=" md:inline flex-auto md:w-1/3  mx-auto bg-white p-2 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100" >
-              <p className="text-xl">Bible Study</p>
+          <div className="flex-auto md:w-1/3 w-full  m-2 bg-white p-2 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100" >
+              <p className="font-bold text-lg">Bible Study</p>
               <p className="">Every Wednesday</p>
               <p className="">Time: 1800:00-19:00</p>
           </div>
           
-          <div className=" md:inline flex-auto md:w-1/3  bg-white p-2 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100" >
-          <p className="text-xl">Thursday Service</p>
+          <div className="flex-auto md:w-1/3 w-full  m-2 bg-white p-2 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100" >
+          <p className="font-bold text-lg">Thursday Service</p>
           <p className="">Every Thursday</p>
           <p className="">Time: 18:00 -19:30</p>
           </div>
@@ -72,7 +72,7 @@ function FeaturesShow() {
       </div>
   
     </div>
-  </div></>
+  </div>
   )
 }
 
