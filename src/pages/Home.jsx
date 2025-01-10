@@ -2,7 +2,7 @@ import { Heart, Users, Book, Baby, Users2, UserPlus, Gem, Building2, HandHeart, 
 import HeroSlider from '../components/HeroSlider';
 import ServiceCard from '../components/ServiceCard'
 import Footer from '../components/Footer'
-import FeaturesShow from '../components/FeaturesShow'
+import Showcase from '../components/Showcase'
 import FAQList from '../components/FAQ';
 import Banner from '../assets/services.jpg'
 import Evangelize from '../assets/evangelize.jpg'
@@ -88,7 +88,7 @@ export default function Home() {
   return (
     <div>
       <HeroSlider />
-      <FeaturesShow />
+      <Showcase />
       
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
