@@ -9,7 +9,7 @@ export default function PageHeader({ title, image }) {
     'Always inspired by The Great Commission'
   ]
   return (
-    <div className="relative h-[70vh] bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}>
+    <div className="relative container mx-auto h-[50vh] lg:h-[70vh] bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}>
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative h-full flex flex-col items-center justify-center">
         <h1 className="text-5xl font-bold text-white">{title}</h1>

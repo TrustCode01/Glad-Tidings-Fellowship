@@ -4,7 +4,7 @@ import Banner from '../assets/banner.jpg'
 import Banner2 from '../assets/banner2.jpg'
 import Banner3 from '../assets/banner3.jpg'
 import Banner4 from '../assets/banner4.jpg'
-import Banner5 from '../assets/banner5.jpg'
+import Banner5 from '../assets/Banner5.jpg'
 import Banner6 from '../assets/banner6.jpg'
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -44,7 +44,7 @@ const slides = [
 
 export default function HeroSlider() {
   return (
-    <div className="relative h-[70vh]">
+    <div className="container mx-auto z-10 relative h-[70vh]">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
