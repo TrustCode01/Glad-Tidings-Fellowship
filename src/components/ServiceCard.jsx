@@ -39,7 +39,7 @@ export default function ServiceCard({ title, description, id, image,verse }) {
       <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
       <p className="text-gray-600 mb-4">{description}</p>
       {verse && <p className="font-bold">{verse}</p>}
-      <Link to={`/ministries#${id}`}>
+      <Link to={`/${id}`}>
         <button className="flex items-center text-purple-800 hover:text-purple-900 transition-colors">
           Learn More <ArrowRight className="ml-2 w-4 h-4" />
         </button>

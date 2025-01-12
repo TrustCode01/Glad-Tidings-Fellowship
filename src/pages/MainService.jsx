@@ -1,14 +1,12 @@
 import React from 'react'
 import Service from '../assets/services.jpg'
+import PageHeader from '../components/PageHeader'
 
 function MainService() {
   return (
-    <div className='container mx-auto px-4 py-16'>
-        <CallToActionCard
-        title='Glad Tidings Fellowship main service'
-        decription='Our'
-        url='/sermons'
-        image={Service}/>
+    <div className='pt-16'>
+      <PageHeader title="Our Main Service" image={Service}/>
+        
 
     </div>
   )

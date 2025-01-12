@@ -1,6 +1,6 @@
 import { Heart, Users, Book, Baby, Users2, UserPlus, Gem, Building2, HandHeart, Brain, Briefcase, Home as HomeIcon } from 'lucide-react';
 import HeroSlider from '../components/HeroSlider';
-import ServiceCard from '../components/ServiceCard'
+import ServicesCard from '../components/ServicesCard'
 import Footer from '../components/Footer'
 import Showcase from '../components/Showcase'
 import FAQList from '../components/FAQ';
@@ -106,7 +106,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {services.map((service, index) => (
-              <ServiceCard
+              <ServicesCard
                 key={index}
                 {...service}
               />

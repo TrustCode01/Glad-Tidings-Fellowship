@@ -18,7 +18,7 @@ import Service from '../assets/service.jpg'
 import Counselling from '../assets/counselling.jpg'
 import Youth from '../assets/banner2.jpg'
 const services = [
-    {   id: 'main',
+    {   id: 'mainservice',
         title: "Main Service",
         description: "Our main service is a time for the entire congregation to come together in worship, prayer, and the study of God's Word. It's a moment to recharge spiritually and connect with fellow believers.",
         verse: '(Hebrews 10:25) Encourages us to always meet',
@@ -40,19 +40,19 @@ const services = [
     image: Couple
   },
   {
-    id: 'men-fellowship',
+    id: 'mensfellowship',
     title: "Men's Fellowship",
     description: "The Men's Ministry focuses on building strong, godly men who lead their families and communities with integrity and faith. Through fellowship, Bible study, and service projects, men are equipped to grow in their walk with Christ. Be on your guard; stand firm in the faith; be courageous; be strong. (1 Corinthians 16:13) .",
     image: ForMen
   },
   {
-    id: 'women-fellowship',
+    id: 'womensfellowship',
     title: "Women Ministry",
     description: "Our Women's Ministry provides a supportive environment for women to grow in their faith, build meaningful relationships, and serve others. Through Bible studies, retreats, and community outreach, women are empowered to live out their God-given purpose.",
     image: Women
   },
   {
-    id: 'single-parents',
+    id: 'singleparents',
     title: "Single Parents Ministry",
     description: "This ministry offers support and encouragement to single parents, helping them navigate the challenges of raising children alone. Through practical assistance, spiritual guidance, and community, single parents find hope and strength. A father to the fatherless, a defender of widows, is God in his holy dwelling.(Psalm 68:5).",
     image: Parent 
@@ -65,13 +65,13 @@ const services = [
   },
  
   {
-    id: 'children',
+    id: 'childrenministry',
     title: "Children's Ministry",
     description: "The Children Ministry provides a safe and nurturing environment where kids can learn about God's love through Bible stories, songs, and interactive activities. It's a place where faith is fun and foundational. Jesus said, 'Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.' (Matthew 19:14).",
     image: Children
   },
   {
-    id: 'life-coaching',
+    id: 'lifecoaching',
     title: "Life Coaching",
     description: "Our Life Coaching ministry offers personalized guidance to help individuals achieve their God-given potential. Through one-on-one sessions, participants receive support in areas such as career, relationships, and spiritual growth.Plans fail for lack of counsel, but with many advisers they succeed(Proverbs 15:22).",
     image: Life
@@ -89,7 +89,7 @@ const services = [
     image: Community
   },
   {
-    id: 'business',
+    id: 'inspirations',
     title: "Business and Skills inspirations",
     description: "This ministry supports entrepreneurs and professionals by providing resources, training, and networking opportunities. It encourages the use of God-given talents to build successful businesses that honor Him. Do you see someone skilled in their work? They will serve before kings; they will not serve before officials of low rank.(Proverbs 22:29)",
     image: Business

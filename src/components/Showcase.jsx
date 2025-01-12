@@ -14,7 +14,7 @@ function Showcase() {
       <div className="py-4  mx-auto  sm:py-4 lg:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
           <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-            <Link to="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+            <Link to="" className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
               <img src={MainServiceBanner} alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"/>
               <div className="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/55"></div>
               <h3 className="z-10 text-2xl font-bold text-white absolute top-10 left-0 p-4 xs:text-xl md:text-3xl">Main Service</h3>

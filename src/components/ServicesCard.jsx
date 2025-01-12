@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import { motion, stagger, transform, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-export default function ServicesCard({index, title, description, icon }) {
+export default function ServicesCard({index, title, description, image }) {
   const controls = useAnimation();
       const [ref, inView] = useInView();
     
@@ -34,7 +34,7 @@ export default function ServicesCard({index, title, description, icon }) {
     >
       <div className="w-full  rounded-lg flex text-purple-800 mb-4">
        
-       {icon}
+       <img src={image} alt={title} className='sm:max-w-[100%] md:w-full' />
       
       </div>
       <h3 className="text-xl font-semibold mb-2 text-gray-800 ">{title}</h3>
