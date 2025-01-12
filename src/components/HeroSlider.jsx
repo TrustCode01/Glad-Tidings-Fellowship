@@ -62,7 +62,7 @@ export default function HeroSlider() {
                 <div className="absolute inset-0 bg-black/50" />
               </div>*/}
               <div 
-                className="absolute inset-0 top-25"
+                className="absolute inset-0 top-35"
               >
               
                <picture>

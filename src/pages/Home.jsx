@@ -20,15 +20,21 @@ import Counselling from '../assets/counselling.jpg'
 import CallToActionCard from '../components/CallToActionCard';
 
 const services = [
+ 
+  {
+    title: "Main Service",
+    description: "Sunday worship services filled with praise and powerful messages",
+    image: Service
+  },
   {
     title: "Evangelism",
     description: "Spreading the gospel through community outreach and missions",
     image: Evangelize
   },
   {
-    title: "Main Service",
-    description: "Sunday worship services filled with praise and powerful messages",
-    image: Service
+    title: "New Converts",
+    description: "Teaching new believers how to serve God",
+    image: Life
   },
   {
     title: "Couples Teachings",

@@ -20,26 +20,29 @@ import Youth from '../assets/banner2.jpg'
 const services = [
     {   id: 'main',
         title: "Main Service",
-        description: "Our main service is a time for the entire congregation to come together in worship, prayer, and the study of God's Word. It's a moment to recharge spiritually and connect with fellow believers. (Hebrews 10:25).",
+        description: "Our main service is a time for the entire congregation to come together in worship, prayer, and the study of God's Word. It's a moment to recharge spiritually and connect with fellow believers.",
+        verse: '(Hebrews 10:25) Encourages us to always meet',
         image: Service
       },
   {
     id: 'evangelism',
     title: "Evangelism",
-    description: `Our evangelism ministry spreads the Gospel through community outreach, street ministry, and digital platforms. We train and equip believers to share their faith effectively. "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age" (Matthew 28:19-20).`,
+    description: `Our evangelism ministry spreads the Gospel through community outreach, street ministry, and digital platforms. We train and equip believers to share their faith effectively. "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age" .`,
+    verse:"(Matthew 28:19-20)",
     image: Evangelize
   },
   
   {
     id: 'couples',
     title: "Couples Teachings",
-    description: "The Couples Ministry is dedicated to strengthening marriages through biblical teaching, counseling, and fellowship. Couples are encouraged to build a Christ-centered relationship that reflects God's love. Therefore what God has joined together, let no one separate (Mark 10:9).",
+    description: "The Couples Ministry is dedicated to strengthening marriages through biblical teaching, counseling, and fellowship. Couples are encouraged to build a Christ-centered relationship that reflects God's love.",
+    verse: 'Therefore what God has joined together, let no one separate (Mark 10:9)',
     image: Couple
   },
   {
     id: 'men-fellowship',
     title: "Men's Fellowship",
-    description: "The Men's Ministry focuses on building strong, godly men who lead their families and communities with integrity and faith. Through fellowship, Bible study, and service projects, men are equipped to grow in their walk with Christ.<em> Be on your guard; stand firm in the faith; be courageous; be strong. (1 Corinthians 16:13) </em>.",
+    description: "The Men's Ministry focuses on building strong, godly men who lead their families and communities with integrity and faith. Through fellowship, Bible study, and service projects, men are equipped to grow in their walk with Christ. Be on your guard; stand firm in the faith; be courageous; be strong. (1 Corinthians 16:13) .",
     image: ForMen
   },
   {
