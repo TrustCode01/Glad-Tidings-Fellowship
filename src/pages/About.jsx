@@ -70,7 +70,14 @@ export default function About() {
 
   return (
     <div className="pt-16">
-      <PageHeader title="About Us" image={AboutBanner} />
+      <PageHeader 
+      title="About Us" 
+      image={AboutBanner} 
+      sentences={['Welcome to Glad Tidings Fellowship Tariro',
+                  'We are zealous in evangelising to the nations',
+                  'We are dedicated to equiping the saints',
+                  'Always inspired by the great commission',
+                  ]}/>
 
       <div className="container mx-auto px-4 py-16">
         <div className="w-[80vw] mx-auto">

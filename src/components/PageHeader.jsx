@@ -1,13 +1,7 @@
 import Typewriter from "./Typewriter";
 
-export default function PageHeader({ title, image }) {
-  const sentences =[
-    'Welcome to Glad Tidings Tariro assembly',
-    'Where we evangelize to the world',
-    'We are Inspired to make desciples',
-    'Dedicated to equiping the saints',
-    'Always inspired by The Great Commission'
-  ]
+export default function PageHeader({ title, image, sentences}) {
+  
   return (
     <div className="relative container mx-auto h-[50vh] lg:h-[70vh] bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}>
       <div className="absolute inset-0 bg-black/60" />
