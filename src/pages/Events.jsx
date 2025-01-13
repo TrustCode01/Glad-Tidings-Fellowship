@@ -41,6 +41,12 @@ export default function Events() {
       <PageHeader 
         title="Upcoming Events" 
         image= {EventsBanner} 
+        sentences={[
+          'Looking back at where we started',
+          'Looking forward to achieving more with God',
+          'All things are made possible by him alone',
+          'It has been God from the start'
+        ]}
       />
 
       <div className="container mx-auto px-4 py-16">

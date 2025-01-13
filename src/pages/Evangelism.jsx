@@ -9,10 +9,8 @@ function Evangelism() {
       image={BannerE}
       sentences={[
         'We have zeal for making desciples',
-        'We equip the saints for the work of God'
-
-
-      ]}/>
+        'We equip the saints for the work of God',
+        'Winning souls is our mission']}/>
     </div>
   )
 }

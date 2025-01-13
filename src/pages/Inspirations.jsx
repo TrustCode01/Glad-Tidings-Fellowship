@@ -7,7 +7,12 @@ function Inspirations() {
     <div>
         <PageHeader 
         title= 'Biblical Inspirations'
-        image ={Banner}/>
+        image ={Banner}
+        sentences={[
+          "Taking God's principles and applying them in our business",
+          'Unleashing the giants within us',
+          'Dedicating everything we have to God'
+        ]}/>
         <Footer/>
     </div>
   )
