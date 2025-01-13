@@ -103,6 +103,11 @@ export default function Services() {
       <PageHeader 
         title="Our Services" 
         image= {Banner}
+        sentences ={[
+          'Dedicated to strengthen your faith',
+          'Building lasting relationship with others',
+          'Join us now.'
+        ]}
       />
 
       <div className="container mx-auto px-4 py-16">
