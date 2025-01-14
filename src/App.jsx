@@ -46,7 +46,7 @@ function App() {
             <Route path='/evangelism' element={<Evangelism/>} />
             <Route path='/couples' element={<Couples/>} />
             <Route path='/mensfellowship' element={<MensFellowship/>} />
-            <Route path='/womenfellowship' element={<WomensFellowship/>} />
+            <Route path='/womensfellowship' element={<WomensFellowship/>} />
             <Route path='/singleparents' element={<SingleParents/>} />
             <Route path='/youths' element={<Youth/>} />
             <Route path='/childrenministry' element={<ChildrenMinistry/>} />

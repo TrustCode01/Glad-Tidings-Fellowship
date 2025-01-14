@@ -6,7 +6,7 @@ function Inspirations() {
   return (
     <div>
         <PageHeader 
-        title= 'Biblical Inspirations'
+        title= 'Getting Biblical guidance'
         image ={Banner}
         sentences={[
           "Taking God's principles and applying them in our business",

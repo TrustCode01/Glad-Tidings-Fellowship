@@ -1,8 +1,20 @@
 import React from 'react'
+import PageHeader from '../components/PageHeader'
+import Single from '../assets/single.jpg'
 
 function SingleParents() {
   return (
-    <div>SingleParents</div>
+    <div>
+      <PageHeader
+         title="Single Parenting made better"
+         image={Single}
+         sentences={[
+          'Navigating the complexity of single parenting with the word of God',
+          'Enabling God to take control of everthing',
+          'Putting God first in all circustances'
+
+         ]}/>
+    </div>
   )
 }
 
