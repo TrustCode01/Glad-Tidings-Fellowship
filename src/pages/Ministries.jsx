@@ -13,50 +13,8 @@ function Ministries() {
       />
     <section id="ministries" className='relative' >
       
-      <article id="evangelism" className="bg-white  rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
-        <header className='text-center p-4'>
-          <h2 className='text-3xl'>Winning the Lost at Any Cost</h2>
-          <p className="">Spreading the Gospel with Unwavering Commitment
-          </p>
-          </header>
-<div className="p-6 font-sans text-xl">
-<p className='text-2xl'>
-Our evangelism ministry is unwavering in its commitment to win the lost at any cost. We spread the Gospel through community outreach, street ministry, and digital platforms, ensuring that no soul is left unreached. We are dedicated to training and equipping believers to share their faith with passion and effectiveness. As it is written, "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age" (Matthew 28:19-20). With relentless dedication, we strive to fulfill the Great Commission, bringing the light of Christ to every corner of the world.
-</p>
-<p>
-We are inspired by the words of Jesus in Matthew 9:37-38: "The harvest is plentiful but the workers are few. Ask the Lord of the harvest, therefore, to send out workers into his harvest field." Our mission is to be those workers, tirelessly laboring in the fields to bring in the harvest of souls. We believe in the power of the Holy Spirit to guide and empower us in this mission, as promised in Acts 1:8: "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth."
-</p>
-<p>
-Our commitment is rooted in love and compassion, following the example of Christ who came<strong> to seek and to save the lost" (Luke 19:10)</strong>. We are driven by the urgency of the Gospel message, knowing that <strong>the time is short" (1 Corinthians 7:29) and that "now is the time of God's favor, now is the day of salvation" (2 Corinthians 6:2). Let us go forth with boldness and faith, knowing that our labor in the Lord is not in vain (1 Corinthians 15:58)</strong>.
-</p>     
-</div>   
-      </article>
-      <article id="couples"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
-        <header className='text-center p-4'>
-        <h2 className='text-3xl'>Couples Ministry</h2>
-        <p className="">Rebuilding Love and Intimacy Through God's Word</p>
-        </header>
-        <p>
-        The Couples Ministry is dedicated to strengthening marriages through biblical teaching, counseling, and fellowship. In a world where infidelity and broken trust are prevalent, especially in African countries like Zimbabwe, our ministry aims to bring back honesty, trustworthiness, and love in marriages. We encourage couples to build a Christ-centered relationship that reflects God's love and commitment.</p>
-<p>
-As it is written in Mark 10:9, "Therefore what God has joined together, let no one separate." This verse reminds us of the sanctity and permanence of marriage. By grounding our relationships in the Word of God, we can overcome the challenges that threaten to divide us. Proverbs 3:3-4 also teaches, "Let love and faithfulness never leave you; bind them around your neck, write them on the tablet of your heart. Then you will win favor and a good name in the sight of God and man."</p>
-<p>
-Through our teachings, we emphasize the importance of fidelity and the devastating impact of infidelity on marriages. Ephesians 5:25-28 calls husbands to love their wives just as Christ loved the church and gave himself up for her. This sacrificial love is the foundation of a strong and enduring marriage. We also remind wives to respect their husbands, as stated in Ephesians 5:33, fostering mutual respect and understanding.
-
-</p>
-<p>
-Our ministry provides practical tools and support to help couples navigate the complexities of marriage. We offer counseling sessions, workshops, and fellowship opportunities to strengthen the bond between spouses. By fostering open communication and addressing issues head-on, we aim to rebuild trust and create a loving, supportive environment for families.</p>
-<p>
-Happiness in marriage is rooted in transparency and mutual respect. By being open and honest with each other, couples can build a foundation of trust that withstands the test of time. Colossians 3:19 advises, "Husbands, love your wives and do not be harsh with them." This verse underscores the importance of kindness and understanding in maintaining a harmonious relationship.</p>
-<p>
-Order and respect are essential for a peaceful and fulfilling marriage. 1 Corinthians 14:40 reminds us, "But everything should be done in a fitting and orderly way." By establishing clear roles and responsibilities, couples can create a balanced and orderly household that promotes mutual respect and cooperation.
-Conflict management and resolution are crucial skills for maintaining a healthy marriage. Ephesians 4:26-27 advises,<em> "In your anger do not sin: Do not let the sun go down while you are still angry, and do not give the devil a foothold."</em> This verse highlights the importance of addressing conflicts promptly and constructively. Our ministry offers guidance on effective communication and conflict resolution techniques to help couples navigate disagreements and strengthen their relationship.</p>
-<p>
-Join us in our mission to restore the beauty and sanctity of marriage. Together, we can fight against infidelity and build lasting, Christ-centered relationships that honor God and bring joy to our lives.
-</p>
-
-
-      </article>
+      
+      
       <article id="men-fellowship"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
         <header className='text-center p-4'>
            <h2 className='text-3xl'>Building Men with Godly character</h2>
