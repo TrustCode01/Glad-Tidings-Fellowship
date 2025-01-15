@@ -14,6 +14,12 @@ export default function Contact() {
       <PageHeader 
         title="Contact Us" 
         image={ContactBanner}
+        sentences={[
+          'Do you want to know our location?',
+          'You want to attend our services?',
+          'You want to participate in our community reach out?',
+          'Then do not hesitate to contact us.'
+        ]}
       />
 
       <div className="container mx-auto px-4 py-16">

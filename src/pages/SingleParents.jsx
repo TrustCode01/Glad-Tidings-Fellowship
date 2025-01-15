@@ -1,6 +1,7 @@
 import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Single from '../assets/single.jpg'
+import Footer from '../components/Footer'
 
 function SingleParents() {
   return (
@@ -14,6 +15,7 @@ function SingleParents() {
           'Putting God first in all circustances'
 
          ]}/>
+         <Footer/>
     </div>
   )
 }

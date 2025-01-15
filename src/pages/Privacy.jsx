@@ -8,7 +8,12 @@ function Privacy() {
     <>
     <PageHeader
      title="Our Privacy Policies"
-     image={Banner}/>
+     image={Banner}
+     sentences={[
+      'Do not worry your information is in safe hands',
+      'No information will be handed over to any third part',
+      'We are always there to protect your infomation'
+     ]}/>
 
     <section className='p-4'>
   <h2 className='text-2xl font-bold'>Privacy Policy</h2>

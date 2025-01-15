@@ -1,6 +1,7 @@
 import React from 'react'
 import PageHeader from '../components/PageHeader'
 import CoupleBanner from '../assets/coupleBanner.jpg'
+import Footer from '../components/Footer'
 
 function Couples() {
   return (
@@ -13,7 +14,7 @@ function Couples() {
         'Creating lasting love and oneness',
         'Making Christ the center of our marriages'
       ]}/>
-
+      <Footer/>
     </div>
   )
 }

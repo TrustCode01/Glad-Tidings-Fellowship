@@ -1,6 +1,7 @@
 import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Women from '../assets/womenbanner.jpg'
+import Footer from '../components/Footer'
 
 function WomensFellowship() {
   return (
@@ -14,6 +15,7 @@ function WomensFellowship() {
             'Women who love and cherish their families',
             'Women who serve God passionately'
         ]}/>
+        <Footer/>
     </div>
   )
 }

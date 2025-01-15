@@ -61,6 +61,11 @@ function Sermons() {
       <PageHeader
       title='Our Sermons '
       image = {Banner}
+      sentences={[
+        'This the moment of connecting to God through his word',
+        'The word of God protects us, it guides us',
+        'For us to please him we must live according to his word'
+      ]}
       />
 
 <div className="container mx-auto px-4 py-16">

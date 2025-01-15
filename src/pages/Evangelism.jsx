@@ -1,6 +1,7 @@
 import React from 'react'
 import PageHeader from '../components/PageHeader'
 import BannerE from '../assets/Banner5.jpg'
+import Footer from '../components/Footer'
 function Evangelism() {
   return (
     <div>
@@ -11,6 +12,7 @@ function Evangelism() {
         'We have zeal for making desciples',
         'We equip the saints for the work of God',
         'Winning souls is our mission']}/>
+        <Footer/>
     </div>
   )
 }

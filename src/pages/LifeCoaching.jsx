@@ -1,6 +1,7 @@
 import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Banner from '../assets/Lifecoaching.jpg'
+import Footer from '../components/Footer'
 
 function LifeCoaching() {
   return (
@@ -11,6 +12,7 @@ function LifeCoaching() {
        sentences={['Finding purpose and vision in life thhrough the bible',
                     'Getting biblical guidance and counselling',
                   'Uplifting others spiritually']}/>
+      <Footer />
     </div>
   )
 }
