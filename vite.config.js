@@ -8,8 +8,9 @@ import { ghPages } from 'vite-plugin-gh-pages'
 export default defineConfig({
   plugins: [react(),
            ghPages({
-            branch:'gh-pages'
+            branch:'gh-pages',
+            
            })
-
   ],
+
 })
