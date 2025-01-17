@@ -71,7 +71,7 @@ export default function HeroSlider() {
                 <source  media='min-width: 700px' src=''/>
                 <source  media='min-width: 501px' src=''/>
                 <source  media='max-width: 500px' src=''/>
-                <img src={slide.image} alt="" className='w-full h-[70vh] max-w-[100%]'/>
+                <img src={slide.image} alt="" className='w-full h-[70vh] max-w-[100%] hidden md:block'/>
                </picture>
                 <div className="absolute inset-0 bg-black/50" />
               </div>
