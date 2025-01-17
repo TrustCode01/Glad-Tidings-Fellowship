@@ -3,7 +3,7 @@ import Typewriter from "./Typewriter";
 export default function PageHeader({ title, image, sentences}) {
   
   return (
-    <div className="relative container mx-auto h-[50vh] lg:h-[70vh] bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}>
+    <div className="relative container mx-auto h-[50vh] lg:h-[70vh] bg-cover bg-center " style={{ backgroundImage: `url(${image})` }}  >
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative h-full flex flex-col items-center justify-center">
         <h1 className="text-5xl font-bold text-white">{title}</h1>
@@ -16,6 +16,7 @@ export default function PageHeader({ title, image, sentences}) {
 
     {
       /**
+       
        <div className="relative h-[50vh]">
       <picture>
         <source media="(min-width:1400px )" srcset={imageXL} />
