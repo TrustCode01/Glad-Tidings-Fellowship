@@ -32,32 +32,32 @@ const services = [
     image: Evangelize
   },
   {
-    title: "New Converts",
+    title: "New Converts Ministry",
     description: "Teaching new believers how to serve God",
     image: Life
   },
   {
-    title: "Couples Teachings",
+    title: "Couples Ministry",
     description: "Building stronger marriages through biblical principles",
     image: Couple
   },
   {
-    title: "Men's Fellowship",
+    title: "Men's Ministry",
     description: "Empowering men to be spiritual leaders",
     image: ForMen
   },
   {
-    title: "Single Parents",
+    title: "Single Parents Ministry",
     description: "Support and guidance for single parent families",
     image: Parent
   },
   {
-    title: "Women Teachings",
+    title: "Women Ministry",
     description: "Empowering women through faith and fellowship",
     image: Women
   },
   {
-    title: "Youth Services",
+    title: "Youths Ministry",
     description: "Dynamic programs for young people to grow in faith",
     image: Youths
   },
@@ -72,7 +72,7 @@ const services = [
     image: Community
   },
   {
-    title: "Life Coaching",
+    title: "Life Coaching Ministry",
     description: "Personal growth through spiritual guidance",
     image: Life
   },
