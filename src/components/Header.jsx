@@ -6,7 +6,7 @@ import Logo from '../assets/glad-tiding-logo.png'
 const navLinks = [
   { path: '/', label: 'Home' },
   { path: '/about', label: 'About' },
-  { path: '/services', label: 'Services' },
+  { path: '/services', label: 'Ministries' },
   {path: '/sermons', label: 'Sermons'},
   { path: '/events', label: 'Events' },
   { path: '/contact', label: 'Contact' }

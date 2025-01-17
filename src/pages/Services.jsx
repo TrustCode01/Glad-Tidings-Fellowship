@@ -47,7 +47,7 @@ const services = [
   },
   {
     id: 'womensfellowship',
-    title: "Women Ministry",
+    title: "Women's Ministry",
     description: "Our Women's Ministry provides a supportive environment for women to grow in their faith, build meaningful relationships, and serve others. Through Bible studies, retreats, and community outreach, women are empowered to live out their God-given purpose.",
     image: Women
   },
