@@ -34,7 +34,7 @@ const services = [
   
   {
     id: 'couples',
-    title: "Couples Teachings",
+    title: "Couples Ministry",
     description: "The Couples Ministry is dedicated to strengthening marriages through biblical teaching, counseling, and fellowship. Couples are encouraged to build a Christ-centered relationship that reflects God's love.",
     verse: 'Therefore what God has joined together, let no one separate (Mark 10:9)',
     image: Couple
