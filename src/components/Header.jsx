@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -16,7 +17,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
+    <header className="fixed w-full bg-white/95 backdrop-blur-sm z-50  shadow-sm">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-purple-800">
@@ -28,7 +29,7 @@ export default function Header() {
               <Link 
                 key={path}
                 to={path} 
-                className="text-blue-700 hover:text-purple-800  transition-colors"
+                className="text-blue-700 hover:text-purple-800 sm:text-[1rem]  md:text-[1rem] transition-colors"
               >
                 {label}
               </Link>

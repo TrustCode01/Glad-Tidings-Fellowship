@@ -10,6 +10,7 @@ function Showcase() {
   return (
   <section className="mt-8 container mx-auto">
     <h2 className='my-6 text-3xl text-center font-bold'>Join us in this walk with Christ</h2>
+    <p className="max-w-2xl mx-auto my-2 text-base  md:leading-relaxed md:text-xl">Welcome! We will be grateful to see you attending one our services. Its a great way to enlighten your spiritual wellbeing. Join us now and have a personal encounter with God.</p>
               
       <div className="py-4  mx-auto  sm:py-4 lg:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">

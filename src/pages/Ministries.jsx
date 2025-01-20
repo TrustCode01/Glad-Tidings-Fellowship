@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react'; import { useLocation } from 'react-router-dom';
 import PageHeader from '../components/PageHeader'
 import Banner from '../assets/services.jpg'
@@ -12,14 +11,6 @@ function Ministries() {
         image= {Banner}
       />
     <section id="ministries" className='relative' >
-      
-      
-      
-      
-      
-      
-      
-      
       
       <article id="life-coaching"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
         <header className='text-center p-4'>

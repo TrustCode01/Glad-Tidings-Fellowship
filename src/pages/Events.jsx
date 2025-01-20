@@ -1,3 +1,4 @@
+import React from 'react';
 import PageHeader from '../components/PageHeader';
 import EventComponent from '../components/EventsComponent';
 import Footer from '../components/Footer'

@@ -8,6 +8,7 @@ import Banner5 from '../assets/Banner5.jpg'
 import Banner6 from '../assets/banner6.jpg'
 import 'swiper/css';
 import 'swiper/css/effect-fade';
+import Typewriter from '../components/Typewriter'
 
 const slides = [
   {
@@ -43,52 +44,36 @@ const slides = [
 ];
 
 export default function HeroSlider() {
+ 
+
   return (
-    <div className="container mx-auto z-10 relative h-[70vh]">
-      <Swiper
-        modules={[Autoplay, EffectFade]}
-        effect="fade"
-        autoplay={{ delay: 5000 }}
-        loop={true}
-        className="h-full">
-        {slides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div className="relative h-[70vh] mt-25">
-              {/*<div 
-                className="absolute inset-0 bg-cover  bg-no-repeat bg-center"
-                style={{ backgroundImage: `url(${slide.image})` }}
-              >
-              
-                <div className="absolute inset-0 bg-black/50" />
-              </div>*/}
-              <div 
-                className="absolute inset-0 top-35"
-              >
-              
-               <picture>
-                <source  media='min-width: 1400px' src={slide.image}/>
-                <source  media='min-width: 1000px' src=''/>
-                <source  media='min-width: 700px' src=''/>
-                <source  media='min-width: 501px' src=''/>
-                <source  media='max-width: 500px' src=''/>
-                <img src={slide.image} alt="" className='w-full h-[70vh] max-w-[100%] hidden md:block'/>
-               </picture>
-                <div className="absolute inset-0 bg-black/50" />
-              </div>
-              <div className="relative h-full flex items-center justify-center text-center text-white px-4">
-                <div className="max-w-3xl">
-                  <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
-                    {slide.title}
-                  </h1>
-                  <p className="text-xl md:text-2xl animate-fade-in-delay">
-                    {slide.description}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+    <div className="flex h-[70vh] justify-center items-center dark:bg-gray-300">
+    <div className="text-center max-w-6xl mx-10">
+      <p className="my-3 text-sm tracking-widest font-bold text-indigo-800 uppercase">WELCOME TO:</p>
+      <h1 className="my-3 text-3xl font-bold tracking-tight text-blue-600 md:text-5xl dark:text-blue-600">
+        Glad Tidings Tariro Assembly
+      </h1>
+      <div>
+        <p className="max-w-2xl mx-auto my-2 text-base  md:leading-relaxed md:text-xl">
+        Welcome to our family! We are dedicated to equipping and mentoring believers to grow in their faith, empowering them to disciple others and serve the Lord effectively. Inspired by Matthew 28:19, we invite you to join us in our mission to make disciples of all nations, sharing the love and grace of God with everyone.
+        </p>
+      </div>
+      <div className="flex flex-col items-center justify-center gap-5 mt-6 md:flex-row">
+        <a
+          className="inline-block w-auto text-center min-w-[200px] px-6 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400 hover:-tranneutral-y-px"
+          href=""
+        >
+          Listen To Sermons
+        </a>
+        <a
+          className="inline-block w-auto text-center min-w-[200px] px-6 py-4 text-white transition-all bg-gray-700 dark:bg-white dark:text-gray-800 rounded-md shadow-xl sm:w-auto hover:bg-gray-900 hover:text-white shadow-neutral-300 dark:shadow-neutral-700 hover:shadow-2xl hover:shadow-neutral-400 hover:-tranneutral-y-px"
+          href=""
+        >
+          Contact Us
+        </a>
+      </div>
     </div>
-  );
+  </div>
+
+  )
 }

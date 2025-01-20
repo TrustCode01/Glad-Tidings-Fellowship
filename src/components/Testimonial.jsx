@@ -26,7 +26,7 @@ function Testimonial() {
                   <div className="font-display text-base text-slate-900">Sheryl Berge</div>
                 </div>
                 <div className="overflow-hidden rounded-full bg-slate-50">
-                  <img alt="" className="h-14 w-14 object-cover"  src="https://randomuser.me/api/portraits/men/15.jpg"/>
+                  <img alt="" className="h-14 w-14 object-cover"  src=""/>
                 </div>
               </figcaption>
             </figure>
@@ -47,10 +47,10 @@ function Testimonial() {
               </blockquote>
               <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                 <div>
-                  <div className="font-display text-base text-slate-900">Leland Kiehn</div>
+                  <div className="font-display text-base text-slate-900">Mr....</div>
                 </div>
                 <div className="overflow-hidden rounded-full bg-slate-50">
-                  <img alt="" className="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/women/15.jpg"/>
+                  <img alt="" className="h-14 w-14 object-cover" src=""/>
                 </div>
               </figcaption>
             </figure>
@@ -75,7 +75,7 @@ function Testimonial() {
                   <div className="font-display text-base text-slate-900">Peter Renolds</div>
                 </div>
                 <div className="overflow-hidden rounded-full bg-slate-50">
-                  <img alt="" className="h-14 w-14 object-cover"  src="https://randomuser.me/api/portraits/men/10.jpg"/>
+                  <img alt="" className="h-14 w-14 object-cover"  src=""/>
                 </div>
               </figcaption>
             </figure>

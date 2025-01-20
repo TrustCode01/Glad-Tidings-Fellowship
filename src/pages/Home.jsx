@@ -1,4 +1,4 @@
-import { Heart, Users, Book, Baby, Users2, UserPlus, Gem, Building2, HandHeart, Brain, Briefcase, Home as HomeIcon } from 'lucide-react';
+import React from 'react';
 import HeroSlider from '../components/HeroSlider';
 import ServicesCard from '../components/ServicesCard'
 import Footer from '../components/Footer'
@@ -18,6 +18,8 @@ import Business from '../assets/business.jpg'
 import Service from '../assets/service.jpg'
 import Counselling from '../assets/counselling.jpg'
 import CallToActionCard from '../components/CallToActionCard';
+import Features from '../components/Features'
+import FeaturesShow from '../components/FeaturesShow';
 
 const services = [
  
@@ -93,8 +95,8 @@ export default function Home() {
   
   return (
     <div>
-      <HeroSlider />
-      <Showcase />
+      <HeroSlider/>
+      <FeaturesShow/>
       
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
