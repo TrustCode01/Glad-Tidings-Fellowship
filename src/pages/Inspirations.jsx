@@ -1,12 +1,12 @@
 import React from 'react'
 import PageHeader from '../components/PageHeader'
-import Banner from '../assets/poutry.jpg'
+import Banner from '../assets/dairy.jpg'
 import Footer from '../components/Footer'
 function Inspirations() {
   return (
     <div>
         <PageHeader 
-        title= 'Getting Biblical guidance'
+        title= 'The Bible motivates us to work'
         image ={Banner}
         sentences={[
           "Taking God's principles and applying them in our business",

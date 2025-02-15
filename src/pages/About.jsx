@@ -80,6 +80,7 @@ export default function About() {
                   ]}/>
 
       <div className="container mx-auto px-4 py-16">
+        <FeaturesShow/>
         <div className="w-[80vw] mx-auto">
           <h2 className="text-3xl font-bold mb-6 text-center">Our Origins</h2>
           <p className="text-gray-600 mb-8">

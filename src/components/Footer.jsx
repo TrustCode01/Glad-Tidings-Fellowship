@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className="container mx-auto mt-6 bg-gray-900">
+    <footer className="w-full mt-6 bg-gray-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             
             <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">

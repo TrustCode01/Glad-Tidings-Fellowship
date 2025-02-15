@@ -9,6 +9,7 @@ import Banner6 from '../assets/banner6.jpg'
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import Typewriter from '../components/Typewriter'
+import {Link} from 'react-router-dom'
 
 const slides = [
   {
@@ -44,7 +45,6 @@ const slides = [
 ];
 
 export default function HeroSlider() {
- 
 
   return (
     <div className="flex h-[70vh] justify-center items-center dark:bg-gray-300">
@@ -54,23 +54,25 @@ export default function HeroSlider() {
         Glad Tidings Tariro Assembly
       </h1>
       <div>
-        <p className="max-w-2xl mx-auto my-2 text-base  md:leading-relaxed md:text-xl">
+        <p className=" mx-auto my-2 text-base  md:leading-relaxed md:text-xl">
         Welcome to our family! We are dedicated to equipping and mentoring believers to grow in their faith, empowering them to disciple others and serve the Lord effectively. Inspired by Matthew 28:19, we invite you to join us in our mission to make disciples of all nations, sharing the love and grace of God with everyone.
         </p>
       </div>
+      
+      
       <div className="flex flex-col items-center justify-center gap-5 mt-6 md:flex-row">
-        <a
+        <Link to='/sermons'
           className="inline-block w-auto text-center min-w-[200px] px-6 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400 hover:-tranneutral-y-px"
-          href=""
+          
         >
           Listen To Sermons
-        </a>
-        <a
+        </Link>
+        <Link to='/contact'
           className="inline-block w-auto text-center min-w-[200px] px-6 py-4 text-white transition-all bg-gray-700 dark:bg-white dark:text-gray-800 rounded-md shadow-xl sm:w-auto hover:bg-gray-900 hover:text-white shadow-neutral-300 dark:shadow-neutral-700 hover:shadow-2xl hover:shadow-neutral-400 hover:-tranneutral-y-px"
-          href=""
+          
         >
           Contact Us
-        </a>
+        </Link>
       </div>
     </div>
   </div>

@@ -36,7 +36,7 @@ const Typewriter = ({ texts, speed = 1000, deleteSpeed = 10, delay = 2000 }) => 
   return (
     <div className="typewriter">
       {displayedTexts.map((text, i) => (
-        <p className='text-2xl sm:text-[16px] md:text-[18px] px-4 font-bold text-wrap text-white mt-4' key={i}>{text}</p>
+        <p className='text-2xl sm:text-[16px] md:text-[24px] lg:text-2xl px-4 font-bold text-wrap text-white mt-4' key={i}>{text}</p>
       ))}
     </div>
   );
