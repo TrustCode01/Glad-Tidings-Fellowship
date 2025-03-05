@@ -1,53 +1,37 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade } from 'swiper/modules';
-import Banner from '../assets/banner.jpg'
-import Banner2 from '../assets/banner2.jpg'
-import Banner3 from '../assets/banner3.jpg'
-import Banner4 from '../assets/banner4.jpg'
-import Banner5 from '../assets/Banner5.jpg'
-import Banner6 from '../assets/banner6.jpg'
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import Typewriter from '../components/Typewriter'
+import React from 'react'
+import { motion, stagger, transform, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import {Link} from 'react-router-dom'
 
-const slides = [
-  {
-    image: Banner,
-    title: "Welcome to Tariro Assembly",
-    description: "The Pillar of Hope"
-  },
-  {
-    image: Banner2,
-    title: "Join Us Now",
-    description: "Experience the power of worship together"
-  },
-  {
-    image: Banner3,
-    title: "Growing in Faith",
-    description: "Transforming lives through Christ's love"
-  },
-  {
-    image: Banner4,
-    title: "Making Desciples",
-    description: "Preaching the gospel all around the world"
-  },
-  {
-    image: Banner5,
-    title: "Equiping the Saints ",
-    description: "Grooming the belivers "
-  },
-  {
-    image: Banner6,
-    title: "Growing in Faith",
-    description: "Transforming lives through Christ's love"
-  }
-];
+
 
 export default function HeroSlider() {
+  const controls = useAnimation();
+      const [ref, inView] = useInView();
+    
+      React.useEffect(() => {
+        if (inView) {
+          controls.start('visible');
+        } else {
+          controls.start('hidden');
+        }
+      }, [controls, inView]);
+    
+      const fadeIn = {
+        hidden: {scale: 2, y:50, opacity:0},
+        visible: { 
+          scale: 1, 
+          y:0, 
+          opacity: 1, 
+          transition: { duration: 1,delay:0.5} }
+      };
 
   return (
-    <div className="flex h-[70vh] justify-center items-center dark:bg-gray-300">
+    <motion.div className="flex h-[70vh] justify-center items-center dark:bg-gray-300"
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={fadeIn}>
     <div className="text-center max-w-6xl mx-10">
       <p className="my-3 text-sm tracking-widest font-bold text-indigo-800 uppercase">WELCOME TO:</p>
       <h1 className="my-3 text-3xl font-bold tracking-tight text-blue-600 md:text-5xl dark:text-blue-600">
@@ -75,7 +59,7 @@ export default function HeroSlider() {
         </Link>
       </div>
     </div>
-  </div>
+  </motion.div>
 
   )
 }

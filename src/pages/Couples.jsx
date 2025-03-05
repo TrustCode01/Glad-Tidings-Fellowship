@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import CoupleBanner from '../assets/coupleBanner.jpg'
 import Footer from '../components/Footer'
+import {Link} from 'react-router-dom'
 
 function Couples() {
   return (
@@ -14,7 +15,7 @@ function Couples() {
         'Creating lasting love and oneness',
         'Making Christ the center of our marriages'
       ]}/>
-
+<div>
 <article id="couples"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
         <header className='text-center p-4'>
         <h2 className='text-3xl'>Couples Ministry</h2>
@@ -41,6 +42,21 @@ Join us in our mission to restore the beauty and sanctity of marriage. Together,
 
 
       </article>
+      <aside className="">
+        <h2 className='text-2xl p-6'>Other Ministries</h2>
+        <Link to='/evangelism' className='block'>Evangelism</Link>
+        <Link to='/newconverts'className='block'>New Converts</Link>
+        <Link to='/mensfellowship'className='block'>Men's Fellowship</Link>
+        <Link to='/womensfellowship'className='block'>Women's Fellowship</Link>
+        <Link to='/singleparents'className='block'>Single Parents Ministry</Link>
+        <Link to='/youths'className='block'>Youth Ministry</Link>
+        <Link to='/counselling'className='block'>Counselling</Link>
+        <Link to='/life'className='block'>Life Changing Inspirations</Link>
+        <Link to='/couples'className='block'>Couples mMinistry</Link>
+        <Link to='/children'className='block'>Children's Ministry</Link>
+        
+      </aside>
+      </div>
       <Footer/>
     </div>
   )
