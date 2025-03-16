@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Women from '../assets/womenbanner.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 
 function WomensFellowship() {
   return (
@@ -15,7 +16,8 @@ function WomensFellowship() {
             'Women who love and cherish their families',
             'Women who serve God passionately'
         ]}/>
-        <article id="women-fellowship"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
+        <MinistryLinks/>
+        <article id="women-fellowship"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4">
         <header className='text-center p-4'>
            <h2 className='text-3xl'>Womens Ministry</h2>
            <p className="">Grooming Women of Virtue and Service

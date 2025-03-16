@@ -20,6 +20,7 @@ import Counselling from '../assets/counselling.jpg'
 import CallToActionCard from '../components/CallToActionCard';
 import Features from '../components/Features'
 import FeaturesShow from '../components/FeaturesShow';
+import Testimonial1 from '../components/Testimonial1'
 
 const services = [
  
@@ -94,7 +95,7 @@ export default function Home() {
   const sentences = [ "Hello, welcome to our website!", "We are glad to have you here.", "Explore our features and services.", "Contact us for more information." ];
   
   return (
-    <div>
+    <div className='mt-20'>
       <HeroSlider/>
       <FeaturesShow/>
       
@@ -122,8 +123,9 @@ export default function Home() {
           url="/contact"
           image={Banner}
         />
+        
       </section>
-      
+      <Testimonial1/>
       <FAQList />
       <Footer />
     </div>

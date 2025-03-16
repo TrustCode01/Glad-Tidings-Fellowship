@@ -2,7 +2,7 @@ import PageHeader from '../components/PageHeader';
 import ServiceCard from '../components/ServiceCard';
 import CallToActionCard from '../components/CallToActionCard';
 import Footer from '../components/Footer'
-import Testimonial from '../components/Testimonial';
+import Testimonial1 from '../components/Testimonial1';
 import Banner from '../assets/services.jpg'
 import Evangelize from '../assets/evangelize.jpg'
 import Couple from '../assets/couple.jpg'
@@ -136,7 +136,7 @@ export default function Services() {
        url="/services"
        image={Youth}
         />
-      <Testimonial />
+      <Testimonial1 />
       
       <Footer />
     </div>

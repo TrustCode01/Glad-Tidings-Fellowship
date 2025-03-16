@@ -24,7 +24,7 @@ function CallToActionCard({title,description,url,image}) {
           transition: { duration: 1.5,delay:0.5,} }
       };
   return (
-<motion.section className=" container mx-auto overflow-hidden bg-gray-50 sm:grid sm:grid-cols-1 md:grid-cols-2 h-30 pt-8"
+<motion.section className=" container mx-auto mt-4 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-1 md:grid-cols-2 h-30 pt-8"
 ref={ref}
 initial="hidden"
 animate={controls}

@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Youth from '../assets/banner2.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 
 function Youths() {
   return (
@@ -14,7 +15,8 @@ function Youths() {
         'Strengthening their faith through sound teachings',
         'Help them serve God passionately'
        ]}/>
-       <article id="youths"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
+       <MinistryLinks/>
+       <article id="youths"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4">
         <header className='text-center p-4'>
            <h2 className='text-3xl'>Youths Ministry</h2>
            <p className="">

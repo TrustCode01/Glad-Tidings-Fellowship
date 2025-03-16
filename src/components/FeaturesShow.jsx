@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Service from '../assets/service.jpg'
 import BibleStudy from '../assets/bible-study.jpg'
@@ -54,7 +55,7 @@ function FeaturesShow() {
 
     </div>
 
-    <motion.div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[70rem] md:grid-cols-3"
+    <motion.div className=" mt-6 mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[70rem] md:grid-cols-3"
     ref={ref}
     initial="hidden"
     animate={controls}
@@ -65,7 +66,7 @@ function FeaturesShow() {
             variants={fadeIn}>
             <div className="flex  flex-col justify-between rounded-md p-4">
                <img src={Service} alt="Main Service" className='' />
-                <div class="space-y-2">
+                <div className="space-y-2">
                     <h3 className="font-bold pt-2 text-lg">Main Service</h3>
                     <p className="text-md ">Every Sunday <br /> Time: 8:00am-11:00am</p>
                 </div>
@@ -75,7 +76,7 @@ function FeaturesShow() {
         <motion.article
             className="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
             variants={fadeIn}>
-            <div class="flex  flex-col justify-between rounded-md p-4">
+            <div className="flex  flex-col justify-between rounded-md p-4">
                  <img src={BibleStudy} alt="Bible Study" />
                 <div className="space-y-2">
                     <h3 className="font-bold text-lg pt-2">Bible Study</h3>

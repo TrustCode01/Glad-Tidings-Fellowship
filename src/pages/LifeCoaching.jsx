@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Banner from '../assets/Lifecoaching.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 
 function LifeCoaching() {
   return (
@@ -12,6 +13,7 @@ function LifeCoaching() {
        sentences={['Finding purpose and vision in life thhrough the bible',
                     'Getting biblical guidance and counselling',
                   'Uplifting others spiritually']}/>
+                  <MinistryLinks/>
                   <article id="counselling"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
        <header className='text-center p-4'>
            <h2 className='text-3xl'>Guiding and Counselling Ministry</h2>

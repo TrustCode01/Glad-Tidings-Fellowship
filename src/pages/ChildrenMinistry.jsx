@@ -2,6 +2,8 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import ChildrenBanner from '../assets/childrenBanner.jpg'
 import Footer from '../components/Footer'
+import {Link} from 'react-router-dom'
+import MinistryLinks from '../components/MinistryLinks'
 
 function ChildrenMinistry() {
   return (
@@ -13,7 +15,9 @@ function ChildrenMinistry() {
                    'Nurturing the young ones spiritually',
                    'Teaching them to obey God all the time'
       ]}/>
-      <article id="children"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
+      <MinistryLinks/>
+      <div>
+      <article id="children"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 m-auto">
         <header className='text-center p-4'>
           <h2 className='text-3xl'>Childrens Ministry</h2>
           <p className="">Nurturing Young Hearts in God's Love </p>
@@ -31,6 +35,22 @@ Unity and harmony are always on the lips of our children, with the Word of God a
 <p>
 Join us in our Children's Ministry as we nurture young hearts in God's love, teaching them to love Him, serve others, and live in unity and harmony. Together, we can raise a generation that is rooted in faith and dedicated to following Christ. </p>
       </article>
+      <aside className="">
+        <h2 className='text-2xl p-6'>Other Ministries</h2>
+        <Link to='/evangelism' className='block'>Evangelism</Link>
+        <Link to='/newconverts'className='block'>New Converts</Link>
+        <Link to='/mensfellowship'className='block'>Men's Fellowship</Link>
+        <Link to='/womensfellowship'className='block'>Women's Fellowship</Link>
+        <Link to='/singleparents'className='block'>Single Parents Ministry</Link>
+        <Link to='/youths'className='block'>Youth Ministry</Link>
+        <Link to='/counselling'className='block'>Counselling</Link>
+        <Link to='/life'className='block'>Life Changing Inspirations</Link>
+        <Link to='/couples'className='block'>Couples mMinistry</Link>
+        <Link to='/children'className='block'>Children's Ministry</Link>
+        
+      </aside>
+
+      </div>
       <Footer/>
     </div>
   )

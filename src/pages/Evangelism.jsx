@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import BannerE from '../assets/Banner5.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 function Evangelism() {
   return (
     <div>
@@ -12,8 +13,9 @@ function Evangelism() {
         'We have zeal for making desciples',
         'We equip the saints for the work of God',
         'Winning souls is our mission']}/>
+        <MinistryLinks/>
         
-        <article id="evangelism" className="bg-white  rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
+        <article id="evangelism" className="bg-white  rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 ">
         <header className='text-center p-4'>
           <h2 className='text-3xl'>Winning the Lost at Any Cost</h2>
           <p className="">Spreading the Gospel with Unwavering Commitment

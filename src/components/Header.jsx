@@ -17,7 +17,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-white/95 backdrop-blur-sm z-50  shadow-sm">
+    <header className="fixed w-full bg-white/95 backdrop-blur-sm z-50 h-auto  shadow-sm top-0">
       <nav className=" mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-purple-800">

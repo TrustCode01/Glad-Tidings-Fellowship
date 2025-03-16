@@ -3,10 +3,12 @@ import PageHeader from '../components/PageHeader'
 import CoupleBanner from '../assets/coupleBanner.jpg'
 import Footer from '../components/Footer'
 import {Link} from 'react-router-dom'
+import Couple from '../assets/couple001.jpg'
+import MinistryLinks from '../components/MinistryLinks'
 
 function Couples() {
   return (
-    <div className=''>
+    <div className='lg:container mx-auto'>
       <PageHeader 
       title='Our Couples Ministry' 
       image={CoupleBanner} 
@@ -15,11 +17,12 @@ function Couples() {
         'Creating lasting love and oneness',
         'Making Christ the center of our marriages'
       ]}/>
-<div>
-<article id="couples"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
+<div className=''>
+<MinistryLinks/>
+<article id="couples"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4">
         <header className='text-center p-4'>
-        <h2 className='text-3xl'>Couples Ministry</h2>
-        <p className="">Rebuilding Love and Intimacy Through God's Word</p>
+        <h2 className='text-3xl'>OUR MISSION</h2>
+        <p className="">Building Love and Intimacy In Marriages Through God's Word</p>
         </header>
         <p>
         The Couples Ministry is dedicated to strengthening marriages through biblical teaching, counseling, and fellowship. In a world where infidelity and broken trust are prevalent, especially in African countries like Zimbabwe, our ministry aims to bring back honesty, trustworthiness, and love in marriages. We encourage couples to build a Christ-centered relationship that reflects God's love and commitment.</p>
@@ -39,23 +42,32 @@ Conflict management and resolution are crucial skills for maintaining a healthy 
 <p>
 Join us in our mission to restore the beauty and sanctity of marriage. Together, we can fight against infidelity and build lasting, Christ-centered relationships that honor God and bring joy to our lives.
 </p>
+     <header className=" text-center">
+          <h3 className="text-4xl font-bold mt-6">Our Vision</h3>
+          <p className="">Spreading the word of God that brings fulfilling marriages</p>
+     </header>
+     <section className="mt-6"> 
+     
+     <div className="">
+     
+      <h4 className="text-2xl p-4">Our Vision</h4>
+     <p className='px-4'>Vision We envision a transformative future where marriages in our community radiate as living testimonies of God’s divine plan and purpose. These Christ-centered marriages will shine as beacons of love, unity, and unwavering faith, illustrating the profound beauty and strength that comes from living in alignment with God’s perfect design. They will serve as models of what it means to honor God through mutual respect, selfless service, and an unshakable commitment to each other.
 
+In this envisioned future, couples are not merely surviving the challenges of life together but are thriving as partners deeply rooted in their faith. They draw strength from God to weather life’s storms, becoming resilient and joyful examples of His grace at work. By actively living out biblical principles, these marriages will cultivate homes filled with peace, harmony, and love, creating a ripple effect that impacts their children and extended families, as well as their neighbors, workplaces, and communities.
+{/*<img src={Couple} alt="Cheerful black couple" className='float-left rounded-full max-w-[100%] inline-block' />*/}
 
+We hope to empower couples to reflect God’s glory in their daily interactions—both with each other and with the wider world. Through intentional discipleship, worship, prayer, and active engagement in their spiritual growth, these couples will develop a deeper understanding of their God-given purpose and identity, as well as their role in glorifying Him through their union.
+
+This vision includes families that are securely anchored in the truth of the Bible, teaching their children to know, love, and serve God. These homes will become nurturing grounds where children are taught the values of love, forgiveness, faithfulness, and generosity, preparing them to carry the light of Christ into the next generation.
+
+As these marriages and families grow in faith and love, their influence will extend beyond their immediate circles, inspiring others to pursue Christ-centered relationships and to honor God’s design for marriage. By their example, they will demonstrate that a love rooted in Christ has the power to bring about healing, restoration, and unity in a fractured world.
+
+Finally, as Colossians 3:14 reminds us, “And over all these virtues put on love, which binds them all together in perfect unity.” We believe that this love—selfless, unconditional, and guided by Christ—is the ultimate foundation for marriages that flourish and endure. It is this love that unites couples, strengthens families, and serves as a compelling witness to the greatness of God’s plan for humanity.</p>
+     </div>
+     </section>
+      
       </article>
-      <aside className="">
-        <h2 className='text-2xl p-6'>Other Ministries</h2>
-        <Link to='/evangelism' className='block'>Evangelism</Link>
-        <Link to='/newconverts'className='block'>New Converts</Link>
-        <Link to='/mensfellowship'className='block'>Men's Fellowship</Link>
-        <Link to='/womensfellowship'className='block'>Women's Fellowship</Link>
-        <Link to='/singleparents'className='block'>Single Parents Ministry</Link>
-        <Link to='/youths'className='block'>Youth Ministry</Link>
-        <Link to='/counselling'className='block'>Counselling</Link>
-        <Link to='/life'className='block'>Life Changing Inspirations</Link>
-        <Link to='/couples'className='block'>Couples mMinistry</Link>
-        <Link to='/children'className='block'>Children's Ministry</Link>
-        
-      </aside>
+     
       </div>
       <Footer/>
     </div>

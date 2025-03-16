@@ -26,7 +26,7 @@ export default function ServicesCard({index, title, description, image }) {
       };
     
   return (
-    <motion.div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100"
+    <motion.div className="bg-white p-6  flex flex-col justify-center  rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 sm:w-[70%] sm:mx-auto md:w-full"
     ref={ref}
     initial="hidden"
     animate={controls}

@@ -1,6 +1,8 @@
 import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Counsel from '../assets/conselling.jpg'
+import MinistryLinks from '../components/MinistryLinks'
+import Footer from '../components/Footer'
 
 function Counselling() {
   return (
@@ -13,6 +15,8 @@ function Counselling() {
         'Always know that you are not alone',
         'We are always there to navigate the complexities of life together'
        ]}/>
+       <MinistryLinks/>
+       <Footer/>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Drugs from '../assets/drugs.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 
 function Community() {
   return (
@@ -15,7 +16,8 @@ function Community() {
           'Ministering the word of God in our communities',
           'Offering help whenever there is a need'
         ]}/>
-        <article id="community"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
+        <MinistryLinks/>
+        <article id="community"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4">
         <header className='text-center p-4'>
             <h2 className='text-3xl'>Serving with Compassion</h2>
             <p>Meeting Community Needs Through Christ's Love</p>

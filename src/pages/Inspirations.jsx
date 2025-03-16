@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Banner from '../assets/dairy.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 function Inspirations() {
   return (
     <div>
@@ -13,7 +14,9 @@ function Inspirations() {
           'Getting projects inspirations and advice from fellow believers',
           'Dedicating everything we have to God'
         ]}/>
-         <article id="inspiration"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto">
+        
+         <article id="inspiration"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4">
+         <MinistryLinks/>
        <header className='text-center p-4'>
           <h2 className='sm:text-2xl text-3xl font-semibold p-2'>Empowering Entrepreneurs</h2>
           <p className='font-semibold italic'>Harnessing God-Given Talents for Success</p>

@@ -4,10 +4,10 @@ import Footer from '../components/Footer';
 import AboutBanner from '../assets/aboutbanner.jpg';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import CallToAction from '../components/CallToAction';
 import CallToActionCard from '../components/CallToActionCard'
 import FeaturesShow from '../components/FeaturesShow';
 import Banner from '../assets/services.jpg'
+import Testimonial1 from '../components/Testimonial1'
 
 const values = [
   {
@@ -115,15 +115,9 @@ export default function About() {
         image={Banner}
         />
        
-        
+        <Testimonial1/>
       </div>
       <Footer />
-      <CallToAction/>
-      <FeaturesShow />
-        
-      
-     
-      
     </div>
   );
 }

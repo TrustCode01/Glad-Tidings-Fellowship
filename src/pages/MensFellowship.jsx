@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Men from '../assets/newconverts.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 
 function MensFellowship() {
   return (
@@ -14,6 +15,7 @@ function MensFellowship() {
         'Men who love their families',
         'Men who are loyal to their wives'
        ]}/>
+       <MinistryLinks/>
        <div className="flex">
        <article id="men-fellowship"  className="bg-white p-4 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[70%]">
         <header className='text-center p-4'>
@@ -36,20 +38,7 @@ function MensFellowship() {
           Brothers, let us embrace our calling to be strong, godly leaders. Together, we can overcome the challenges we face and inspire others to follow Christ. Join us in our Men's Fellowship as we grow in faith, integrity, and love, becoming the men God has called us to be.
                   </p>
       </article>
-      <aside className="">
-        <h2 className='text-2xl p-6'>Other Ministries</h2>
-        <Link>Evangelism</Link>
-        <Link>New Converts</Link>
-        <Link>Men's FEllowship</Link>
-        <Link>Women's Fellowship</Link>
-        <Link>Single Parents Ministry</Link>
-        <Link>Youth Ministry</Link>
-        <Link>Counselling</Link>
-        <Link>Life Changing Inspirations</Link>
-        <Link>Couples mMinistry</Link>
-        <Link>Children's Ministry</Link>
-        
-      </aside>
+   
       </div>
        <Footer/>
     </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 import Single from '../assets/single.jpg'
 import Footer from '../components/Footer'
+import MinistryLinks from '../components/MinistryLinks'
 
 function SingleParents() {
   return (
@@ -15,7 +16,8 @@ function SingleParents() {
           'Putting God first in all circustances'
 
          ]}/>
-         <article id="single-parents"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 w-[80%] m-auto" >
+         <MinistryLinks/>
+         <article id="single-parents"  className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 mt-4 " >
         <header className='text-center p-4'>
            <h2 className='text-3xl'>Single Parents Ministry</h2>
            <p className="">Overcoming Challenges and Raising Godly Children</p>
